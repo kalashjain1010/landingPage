@@ -45,11 +45,25 @@
 .page-2{
     background-color: black;
     color: white;
-    height: 600px;
+    height: 110%;
 }
 
 .service-box{
     display: flex;
     flex-direction: row;
-    margin-left: 300px ;
+    padding: 40px;
+    margin: 30px;
+    
 }
+
+.outer {
+    margin: 30px;
+    width:fit-content; 
+    height: 384px;
+    border:1px solid red;
+    padding: 10px;
+  }
+  
+  
+  
+  
