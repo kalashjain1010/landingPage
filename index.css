@@ -1,0 +1,55 @@
+
+.logo{
+    height: 50px;
+    color: white;
+}
+.navbar{
+    
+    background-color: aqua;
+}
+
+.home{
+    margin: 0px 50px 0px 0px;
+}
+
+.navi{
+    margin-left: 200px;
+
+}
+
+.get{
+    margin-left: 40%;
+    color: black;
+    background-color: white;
+    
+}
+
+.get:hover{
+    background-color: ghostwhite;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.hAbout{
+    margin: 200px;
+}
+
+.map{
+    height: 90%;
+}
+
+.page-2{
+    background-color: black;
+    color: white;
+    height: 600px;
+}
+
+.service-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px ;
+}
