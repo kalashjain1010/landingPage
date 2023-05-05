@@ -70,10 +70,16 @@
   }
   
 .page3{
-    display: flex;
-    flex-direction: row;
+   width: 100%;
+   height: 100%;
+   background-color: green;
 }
-
-.img3{
-    justify-content: right;
-}
+.bg {
+   
+    top: 0; 
+    margin-left: -350px; 
+      
+    /* Preserve aspet ratio */
+    min-width: 80%;
+    min-height: 90%;
+  }
