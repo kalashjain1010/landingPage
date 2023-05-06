@@ -1,10 +1,12 @@
 .page1{
-    height: 100%;
+    /* height: 80%; */
     width: 100%;
+    margin-bottom: 0px;
 }
 .logo{
     height: 50px;
     color: white;
+    fill: currentColor;
 }
 .navbar{
     
@@ -34,28 +36,39 @@
 .middle{
     display: flex;
     flex-direction: row;
-    height: fit-content;
+    /* height: fit-content; */
+    /* margin-bottom: 0px; */
 }
 
 .hAbout{
     margin: 200px;
+    margin-bottom: 0px;
+    /* border: 1px solid red; */
+    height: 300px;
 }
 
 .map{
     height: 90%;
+    margin-bottom: 0px;
 }
 
 .page-2{
+    margin-top: 0px;
     background-color: black;
     color: white;
-    height: 110%;
+    /* height: 100%; */
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .service-box{
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     padding: 40px;
-    margin: 30px;
+    /* margin: 30px; */
+    margin-bottom: 0px;
     
 }
 
@@ -70,16 +83,50 @@
   }
   
 .page3{
+    margin-top: 0;
    width: 100%;
    height: 100%;
-   background-color: green;
+   /* background-color: green; */
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
 }
-.bg {
-   
-    top: 0; 
-    margin-left: -350px; 
-      
-    /* Preserve aspet ratio */
-    min-width: 80%;
-    min-height: 90%;
-  }
+
+.success{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.head3{
+    width: fit-content;
+}
+.innovation{
+    color: #1DD5AC;
+}
+
+.inner{
+    width: 330px;
+}
+
+.ggkk{
+    background-color: transparent;
+    border: 1px solid #1DD5AC;
+    color: #1DD5AC;
+}
+
+.ggkk:hover{
+    background-color: transparent;
+    border: 1px solid #1DD5AC;
+    color: #1DD5AC;
+}
+
+.laptop{
+    flex-direction: row;
+    margin-top: 18%;
+    margin-left: 50px;
+}
+
+.rightImg{
+    height: 100vh;
+}
