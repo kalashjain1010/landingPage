@@ -130,3 +130,16 @@
 .rightImg{
     height: 100vh;
 }
+
+.page4{
+    background-color: black;
+    color: white;
+}
+.head4{
+    font: Poppins;
+}
+
+.about4{
+    display: flex;
+    flex-direction: row;
+}
